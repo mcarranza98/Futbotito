@@ -1,0 +1,27 @@
+2022/03/09-10:33:43.090 204 Reusing MANIFEST C:\botVane\WWebJS\session-example\Default\Local Storage\leveldb/MANIFEST-000001
+2022/03/09-10:33:43.091 204 Recovering log #105
+2022/03/09-10:33:43.091 204 Reusing old log C:\botVane\WWebJS\session-example\Default\Local Storage\leveldb/000105.log 
+2022/03/09-10:39:44.407 3214 Level-0 table #109: started
+2022/03/09-10:39:44.435 3214 Level-0 table #109: 9885 bytes OK
+2022/03/09-10:39:44.471 3214 Delete type=0 #105
+2022/03/09-17:02:44.400 2fd0 Level-0 table #111: started
+2022/03/09-17:02:44.460 2fd0 Level-0 table #111: 8763 bytes OK
+2022/03/09-17:02:44.472 2fd0 Delete type=0 #108
+2022/03/10-01:26:49.455 2c9c Level-0 table #113: started
+2022/03/10-01:26:49.475 2c9c Level-0 table #113: 14090 bytes OK
+2022/03/10-01:26:49.488 2c9c Delete type=0 #110
+2022/03/10-01:26:49.489 2c9c Compacting 4@0 + 1@1 files
+2022/03/10-01:26:49.542 2c9c Generated table #114@0: 69 keys, 2601 bytes
+2022/03/10-01:26:49.542 2c9c Compacted 4@0 + 1@1 files => 2601 bytes
+2022/03/10-01:26:49.554 2c9c compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/03/10-01:26:49.557 2c9c Delete type=2 #104
+2022/03/10-01:26:49.557 2c9c Delete type=2 #106
+2022/03/10-01:26:49.557 2c9c Delete type=2 #109
+2022/03/10-01:26:49.557 2c9c Delete type=2 #111
+2022/03/10-01:26:49.557 2c9c Delete type=2 #113
+2022/03/10-15:20:18.986 1150 Level-0 table #116: started
+2022/03/10-15:20:19.025 1150 Level-0 table #116: 17694 bytes OK
+2022/03/10-15:20:19.038 1150 Delete type=0 #112
+2022/03/11-05:05:05.814 3364 Level-0 table #118: started
+2022/03/11-05:05:05.842 3364 Level-0 table #118: 17707 bytes OK
+2022/03/11-05:05:05.854 3364 Delete type=0 #115
