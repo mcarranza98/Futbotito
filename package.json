@@ -1,0 +1,22 @@
+{
+  "name": "whatsappmulti",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "firebase": "^9.8.4",
+    "firebase-admin": "^9.12.0",
+    "node-html-to-image": "^3.2.4",
+    "node-schedule": "^2.1.0",
+    "node-url-shortener": "^2.0.3",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.17.0"
+  }
+}
