@@ -36,7 +36,7 @@ client.on('message', async msg => {
 
     let { from, body } = msg;
 
-    let nombres = body.split(',');
+    let nombres = body.split(',').filter( n => n );
 
     const equipos = equiposAleatorios(nombres);
 
