@@ -36,38 +36,54 @@ client.on('message', async msg => {
 
     let { from, body } = msg;
 
-    let nombres = body.split(',').filter( n => n );
+    console.log(from);
 
-    const equipos = equiposAleatorios(nombres);
+    let permitidos = [
+        '5218712662748@c.us',
+        '5218713427215@c.us',
+    ]
 
-    let resp = 'Los equipos son: '
 
-    let suplentes = [];
+    if( permitidos.includes(from) ){
 
-    equipos.forEach( equipo => {
+        let nombres = body.split(',').filter( n => n );
 
-        if( equipo.length  == 2 ){
+        const equipos = equiposAleatorios(nombres);
 
-            resp += `${equipo[0]} y ${equipo[1]}, `
+        let resp = 'Los equipos son: '
 
-            suplentes.push(equipo[numeroAleatorio(2)]);
+        let suplentes = [];
 
-        }else{
+        equipos.forEach( equipo => {
 
-            resp += `${equipo[0]} juega con: `
+            if( equipo.length  == 2 ){
 
-            suplentes.forEach( suplente  => {
-                
-                console.log( suplentes );
-                resp += `${ suplente }, `
+                resp += `${equipo[0]} y ${equipo[1]}, `
 
-            });
+                suplentes.push(equipo[numeroAleatorio(2)]);
 
-        }
+            }else{
 
-    });
+                resp += `${equipo[0]} juega con: `
 
-    client.sendMessage( from, resp );
+                suplentes.forEach( suplente  => {
+                    
+                    console.log( suplentes );
+                    resp += `${ suplente }, `
+
+                });
+
+            }
+
+        });   
+        
+        client.sendMessage( from, resp );
+
+    }
+
+ 
+
+    
 
 });
 
